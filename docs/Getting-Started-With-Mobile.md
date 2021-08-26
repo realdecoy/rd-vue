@@ -1,7 +1,4 @@
 # Native Mobile Setup
----
-!> Native Mobile is only supported in version `2.x`.
-
 
 Developing native mobile applications with RDVue will require a few adjustments to your environment. It is recommended to follow the installation steps listed in the official [NativeScript Environment Setup](https://docs.nativescript.org/environment-setup.html) guide before proceeding with the RDVue Mobile template.
 

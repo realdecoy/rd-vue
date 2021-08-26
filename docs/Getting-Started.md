@@ -1,23 +1,8 @@
-<div align="left">
-  <br/>
-  <a href="https://www.realdecoy.com/jamaica/" title="REALDECOY">
-    <img width=400px src="https://www.realdecoy.com/wp-content/uploads/2019/02/Realdecoy-logo-transparent.png" alt="rd logo">
-  </a>
-  <br/>
-</div>
-
-# RDVue [![npm version](https://badge.fury.io/js/rdvue.svg)](https://badge.fury.io/js/rdvue)
+# Getting Started
 
 [RDVue](https://github.com/realdecoy/rdvue) is an opinionated CLI for generating Vue.js projects. We do so by adopting
 a development style guide which enforces strong typing with TypeScript, standardized Component, Layout and Page models,
 and a data-layer design promoting unified consumption through Stores and Services.
-
-## Table of Contents
-
-- [Usage](#usage)
-- [Options](#options)
-- [Documentation](#documentation)
-
 
 ## Usage
 
