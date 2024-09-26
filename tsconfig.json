@@ -12,6 +12,11 @@
     "composite": true,
   },
   "include": [
-    "src/**/*"
-  ]
+    "./**/*.ts",
+    "./**/*.js"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "compileOnSave": false
 }

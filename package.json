@@ -42,10 +42,12 @@
     "eslint-config-oclif": "^3.1.0",
     "eslint-config-oclif-typescript": "^0.1.0",
     "globby": "^10.0.2",
+    "highlight.js": "^9.18.1",
     "mocha": "^10.0.0",
     "nyc": "^14.1.1",
     "rimraf": "^3.0.2",
     "sinon": "^11.1.0",
+    "tslint-to-eslint-config": "^2.1.0",
     "ts-node": "^8.10.2",
     "typescript": "^3.9.9"
   },
@@ -87,6 +89,11 @@
     "version": "oclif-dev readme && git add README.md",
     "test": "nyc --extension .ts mocha \"test/**/*.test.ts\" --forbid-only ",
     "lint": "eslint . --ext .ts --config .eslintrc"
+  },
+  "scripts-info": {
+    "build": "Clean and rebuild the project",
+    "audit": "Validate dependency vulnerabilities for production",
+    "test": "Lint and unit test the project"
   },
   "types": "lib/index.d.ts"
 }
